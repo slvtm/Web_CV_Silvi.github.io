@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CV Silvi - Modern Layout</title>
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
+      margin: 0;
+      padding: 0;
+    }
+
+    .sidebar {
+      background-color: #2C3E50;
+      color: white;
+      padding: 20px;
+      min-height: 100vh;
+    }
+
+    .profile-pic {
+      width: 150px;
+      border-radius: 50%;
+      margin-bottom: 15px;
+      transition: transform 0.3s ease;
+    }
+
+    .profile-pic:hover {
+      transform: scale(1.05);
+    }
+
+    h1, h2 {
+      color: #FFD700;
+    }
+
+    .section-title {
+      font-weight: 700;
+      margin-bottom: 20px;
+    }
+
+    .footer {
+      background-color: #2C3E50;
+      color: white;
+      padding: 10px 0;
+    }
+
+    a {
+      color: #FFD700;
+      text-decoration: none;
+      transition: color 0.3s;
+    }
+
+    a:hover {
+      color: #FFA500;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container my-5">
+    <div class="row">
+      <div class="col-md-4 sidebar text-center">
+        <img class="profile-pic" src="image/profileimage.jpg" alt="Profile Picture" data-aos="zoom-in">
+        <h1>Silvi</h1>
+        <p>Web Developer</p>
+
+        <hr>
+        <h2 class="section-title">Contact Info</h2>
+        <p><strong>Email:</strong> silvitamara@gmail.com</p>
+        <p><strong>Phone:</strong> +123 456 789</p>
+
+        <hr>
+        <h2 class="section-title">Skills</h2>
+        <ul>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JAVA</li>
+          <li>Bootstrap</li>
+        </ul>
+
+        <hr>
+        <h2 class="section-title">Social Media</h2>
+        <p><a href="#">LinkedIn</a></p>
+        <p><a href="#">GitHub</a></p>
+      </div>
+
+      <div class="col-md-8">
+        <h2 class="section-title" data-aos="fade-right">Experience</h2>
+        <p><strong>Web Developer</strong> (Oktober 2024)</p>
+        <p><strong>Freelance Designer</strong> (Oktober 2024)</p>
+
+        <h2 class="section-title" data-aos="fade-right">Education</h2>
+        <p><strong>Bachelor of Computer Science, Your University</strong></p>
+        <p><strong>Diploma in Cyber Security, Cyber Tech Institute</strong></p>
+        
+        <h2 class="section-title" data-aos="fade-right">Riwayat Pendidikan</h2>
+        <ul>
+          <li><strong>SDN SIDOMEKAR 02</strong> (2014 - 2017)
+            <ul>
+              <li>Prestasi: Pramuka</li>
+            </ul>
+          </li>
+          <li><strong>SMP NEGERI 01 SEMBORO</strong> (2011 - 2014)
+            <ul>
+              <li>Aktivitas: Pramuka</li>
+              <li>Aktivitas: Tari</li>
+            </ul>
+          </li>
+        </ul>
+
+        <h2 class="section-title" data-aos="fade-right">Portfolio</h2>
+        <ul>
+          <li><a href="#" target="_blank">Project - Website Design</a></li>
+          <li><a href="#" target="_blank">Project - Front End</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer text-center">
+    <p> 2024 Silvi </p>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+</html>
